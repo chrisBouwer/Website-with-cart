@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<!-- Christiaan Bouwer -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mainCSS.css">
+ <script type='php' src="index.php"></script>
+
+<head>
+    <title>Home</title>
+    
+</head>
+
+
+
+
+<header>
+    <div class="division">
+        <div class="heading">
+            <img id="logo" alt="AIMlogo_image" src="images/AIM_Logo.png" />
+        </div>
+
+        <nav>
+            <ul>
+                <li class="selected"><a href="Cart.html">Shopping Cart</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+
+<section id="subscribe">
+    <div class="division">        
+        <form name="subscribe" action="call validate()"  onsubmit="return validate();" method="post">
+            <input id="pass" type="password" name="pass" placeholder="Password">
+            <input name="emailAdd" placeholder="Email">
+            <button type="submit" value="submit" class="Btn" >Login</button>
+        </form>
+    </div>
+</section>
+
+<section id="backgroundImg">
+    <div class="division">
+        <h1 id="main">What we AIM for</h1>
+    
+        <p id="homeTxt">
+            African Information Management strives to provide our clients with the leading business process modelling and analysis software on the market. Our consultants will look into your business fo find the right software for your needs then implement and train your staff with the aim of improving your business processes.
+        </p>
+    </div>
+</section>
+
+<section class="products">
+    <div class="division">
+    <article class="third">
+        <img id="productImg" alt="Product_1_image" src="images/prod1_flowcharter.png" />
+        <br>
+        <p id="productTxt">FlowCharter is advanced analysis and business process modelling  tool.</p><p>Price: R700</p>
+        <button class="Btn" onClick="sendToCart('product_1')" id='cart_1'>Add to Cart</button>
+    </article>
+    
+    <article class="third">
+        <img id="productImg" alt="Product_2_image" src="images/prod2_process.png" />
+        <br>
+        <p id="productTxt">Process is a process simulation and modelling tool used to map functionality.</p><p>Price: R1800</p>
+        <button type="submit" value="submit" id='cart_2' class="Btn" >Add to Cart</button>
+    </article>
+    
+    <article class="third">
+        <img id="productImg" alt="Product_3_image" src="images/prod3_process6Sigma.png" />
+        <br>
+        <p id="productTxt">Process for Six Sigma most sophisticated simulation tool that assists with Six Sigma.</p><p>Price: R2300</p>
+        <button type="submit" id='cart_3' value="submit" class="Btn" >Add to Cart</button>
+    </article>
+    </div>
+</section>
+
+<section class="about">
+    <div class="division">
+        <h2>What AIM does</h2>
+        <table>
+            <tr>
+                <td>
+                    <img style="display:block;" width="100%" height="100%" alt="Product_3_image" src="images/functImg.png" />
+                </td>
+                <td>
+                    <p id="about">AIM is a consulting business based in Cape Town, South Africa. Opened in 2013 in partnership with iGrafx as the South African representative.<br>We focus on SAP ERP consulting & the sales and implementation of Business Process Architecture software.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="division">
+        <h2>Contact AIM</h2>
+        <ul>
+            <li>12 Dorp Street</li>
+            <li>Cape Town</li>
+            <li>info@aim.co.za</li>
+            <li>021 876 3327</li>
+        </ul>
+    </div>
+</section>
+   
+</body>
+
+    
+<footer>
+    AIM © - Created by Christiaan Bouwer
+</footer>
+

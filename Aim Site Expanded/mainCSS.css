@@ -1,0 +1,401 @@
+/*Christiaan Bouwer*/
+
+html {
+    background: whitesmoke;
+    
+}
+@media screen and (max-width:768px){
+	#productImg{
+		max-height: 200px;
+		max-width: 200px;
+	}
+    
+    header li{
+        align-content: center;
+        margin-bottom: 10px;
+        text-align: center;
+        float: none;
+    }
+    header nav{
+        float: none;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+    }
+    header h2{
+        float: right;
+        text-align: center;
+        width: 100%;
+    }
+    header ul{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .heading {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #subscribe form input{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #subscribe h3{
+        float: none;
+        align-content: center;
+    }
+    .products article.third{
+        width: 100%%;
+        float: none;
+        align-content: center;
+        text-align: center;
+    }
+    .about article#about{
+        width: 100%%;
+        float: none;
+        align-content: left;
+        text-align: center;
+        display: block;
+    }
+    .about aside#Login{
+        width: 100%%;
+        float: none;
+        align-content: center;
+        text-align: center;
+    }
+    .JoinUs aside#Register{
+        width: 100%%;
+        float: none;
+        align-content: center;
+        text-align: center;
+    }
+    .JoinUs .split {
+        display: block;
+        width: 100%;
+    }
+    .JoinUs .split {
+        flex: none;
+        width: 100%;
+    }
+    .JoinUs form input{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}
+
+body {
+    background: #59595f;
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-family:  Verdana, Geneva, sans-serif;
+}
+
+h2 {
+    color: #262626;
+    text-align: center;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+
+.products {
+    background-color: whitesmoke;
+}
+
+
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: black;
+    overflow: auto;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+
+p {
+    color: black;
+    font-family:  Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.third{
+    width:33%;
+    float:left;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+
+#backgroundImg{
+    background-image: url("images/homeBackground2blur.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#productTxt{
+    margin: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+#homeTxt{
+    padding-bottom: 30px;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+header{
+	overflow: hidden;
+    background: white;
+}
+
+section {
+	overflow:hidden;
+}
+
+.division{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+}
+
+
+
+header li{
+    float: left;
+    display: inline;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom:0;
+    padding-left: 20px;
+}
+
+header nav{
+    float: right;
+    margin-top: 23px;
+}
+
+.heading {
+    float: left;
+    width: 50%;
+}
+
+header .select, header .selected a{
+    border: 1px solid limegreen;
+    border-radius: 4px;
+    padding: 3px;
+    overflow: hidden;
+}
+
+ul li a:hover{
+    color: limegreen;
+}
+
+#subscribe h3{
+    float: left;
+}
+
+#subscribe form{
+    float: right;
+    padding-top: 10px;
+}
+
+#subscribe input{
+    padding: 5px;
+    height: 20px;
+    width: 200px;
+    color: gray;
+}
+
+.Btn{
+    height: 34px;
+    background-color: white;
+    border: 2 solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: green;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.Btn:hover{
+    background-color: limegreen;
+    overflow: hidden;
+}
+
+.about {
+    background-color: white;
+    border-top: 2px solid green;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#loginH {
+    color: white;
+}
+
+#Login {
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+    background-color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding:  10px;
+}
+
+#about {
+    color: black;
+    float: middle;
+    width: 63%;
+    padding; 15px;
+}
+
+#Login .loginForm input{
+    width: 90%;
+    padding: 10px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.split {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+}
+
+#name {
+    width: 95%;
+}
+
+.JoinUs {
+    background-color: whitesmoke;
+}
+
+#surname {
+    width: 100%;
+}
+
+#Register {
+    width: 75%;
+}
+
+#email {
+    width: 100%;
+}
+
+#passConf {
+    width: 100%;
+}
+
+#pass {
+    width: 95%;
+}
+
+#Register .regForm input{
+    color: gray;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+
+#logLbl{
+    color: white;
+}
+
+#logBtn {
+    color: white;
+}
+
+#main {
+    color: whitesmoke;
+}
+
+
+#logo{
+		max-height: 200px;
+		max-width: 200px;
+	}
+
+#sec {
+    padding-bottom: 10px;
+    background-color: 	#097E80;
+}
+
+#productDescrip {
+    margin: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+#cart {
+    width: 100%%;
+    float: none;
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+
+.contact {
+    background-color: whitesmoke;
+    border-top: 2px solid green;
+}
+
+li {
+    text-align: center;
+}
+
+#subscribe {
+    padding-bottom: 10px;
+    background-color: 	#097E80;
+}
